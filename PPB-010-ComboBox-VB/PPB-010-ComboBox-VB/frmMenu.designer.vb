@@ -35,7 +35,7 @@ Partial Class frmMenu
         'btnForm1
         '
         Me.btnForm1.Location = New System.Drawing.Point(29, 50)
-        Me.btnForm1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm1.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm1.Name = "btnForm1"
         Me.btnForm1.Size = New System.Drawing.Size(391, 30)
         Me.btnForm1.TabIndex = 0
@@ -44,8 +44,8 @@ Partial Class frmMenu
         '
         'btnForm9
         '
-        Me.btnForm9.Location = New System.Drawing.Point(29, 267)
-        Me.btnForm9.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm9.Location = New System.Drawing.Point(29, 396)
+        Me.btnForm9.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm9.Name = "btnForm9"
         Me.btnForm9.Size = New System.Drawing.Size(391, 31)
         Me.btnForm9.TabIndex = 1
@@ -54,8 +54,8 @@ Partial Class frmMenu
         '
         'btnClose
         '
-        Me.btnClose.Location = New System.Drawing.Point(152, 322)
-        Me.btnClose.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnClose.Location = New System.Drawing.Point(152, 451)
+        Me.btnClose.Margin = New System.Windows.Forms.Padding(4)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(100, 28)
         Me.btnClose.TabIndex = 2
@@ -65,7 +65,7 @@ Partial Class frmMenu
         'btnForm2
         '
         Me.btnForm2.Location = New System.Drawing.Point(29, 87)
-        Me.btnForm2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm2.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm2.Name = "btnForm2"
         Me.btnForm2.Size = New System.Drawing.Size(391, 30)
         Me.btnForm2.TabIndex = 3
@@ -75,7 +75,7 @@ Partial Class frmMenu
         'btnForm4
         '
         Me.btnForm4.Location = New System.Drawing.Point(29, 160)
-        Me.btnForm4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm4.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm4.Name = "btnForm4"
         Me.btnForm4.Size = New System.Drawing.Size(391, 30)
         Me.btnForm4.TabIndex = 4
@@ -85,7 +85,7 @@ Partial Class frmMenu
         'btnForm3
         '
         Me.btnForm3.Location = New System.Drawing.Point(29, 124)
-        Me.btnForm3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm3.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm3.Name = "btnForm3"
         Me.btnForm3.Size = New System.Drawing.Size(391, 28)
         Me.btnForm3.TabIndex = 5
@@ -94,8 +94,8 @@ Partial Class frmMenu
         '
         'btnForm8
         '
-        Me.btnForm8.Location = New System.Drawing.Point(29, 229)
-        Me.btnForm8.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm8.Location = New System.Drawing.Point(29, 358)
+        Me.btnForm8.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm8.Name = "btnForm8"
         Me.btnForm8.Size = New System.Drawing.Size(391, 31)
         Me.btnForm8.TabIndex = 6
@@ -105,7 +105,7 @@ Partial Class frmMenu
         'btnForm0
         '
         Me.btnForm0.Location = New System.Drawing.Point(29, 14)
-        Me.btnForm0.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnForm0.Margin = New System.Windows.Forms.Padding(4)
         Me.btnForm0.Name = "btnForm0"
         Me.btnForm0.Size = New System.Drawing.Size(391, 30)
         Me.btnForm0.TabIndex = 7
@@ -116,7 +116,7 @@ Partial Class frmMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(487, 366)
+        Me.ClientSize = New System.Drawing.Size(487, 539)
         Me.Controls.Add(Me.btnForm0)
         Me.Controls.Add(Me.btnForm8)
         Me.Controls.Add(Me.btnForm3)
@@ -125,7 +125,7 @@ Partial Class frmMenu
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.btnForm9)
         Me.Controls.Add(Me.btnForm1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmMenu"
         Me.Text = "frmMenu"
         Me.ResumeLayout(False)

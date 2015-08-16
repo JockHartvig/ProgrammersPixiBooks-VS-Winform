@@ -72,10 +72,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmForm0-Demo.designer.vb">
-      <DependentUpon>frmForm0-Demo.vb</DependentUpon>
+    <Compile Include="frmForm0-ControlBehaviourDemo.designer.vb">
+      <DependentUpon>frmForm0-ControlBehaviourDemo.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmForm0-Demo.vb">
+    <Compile Include="frmForm0-ControlBehaviourDemo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmForm1-SimpleFixeddatainDesignerItemsCollection.designer.vb">
@@ -137,8 +137,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmForm0-Demo.resx">
-      <DependentUpon>frmForm0-Demo.vb</DependentUpon>
+    <EmbeddedResource Include="frmForm0-ControlBehaviourDemo.resx">
+      <DependentUpon>frmForm0-ControlBehaviourDemo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmForm1-SimpleFixeddatainDesignerItemsCollection.resx">
       <DependentUpon>frmForm1-SimpleFixeddatainDesignerItemsCollection.vb</DependentUpon>
