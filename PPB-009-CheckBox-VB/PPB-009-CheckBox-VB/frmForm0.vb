@@ -14,7 +14,7 @@
     End Sub
 
     Private Sub chkCheckBox1_Click(sender As Object, e As System.EventArgs) Handles chkCheckBox1.Click
-        Me.ListBox1.Items.Add("Event - Click")
+        Me.lsbCheckBox1Events.Items.Add("Event - Click")
         Call Set_CheckBox1_Checked_Texts()
         Call Set_CheckBox1_CheckState_Texts()
     End Sub
@@ -26,7 +26,7 @@
     End Sub
 
     Private Sub chkCheckBox1_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles chkCheckBox1.CheckedChanged
-        Me.ListBox1.Items.Add("Event - CheckedChanged")
+        Me.lsbCheckBox1Events.Items.Add("Event - CheckedChanged")
     End Sub
 
     Private Sub chkCheckBox2_CheckedChanged(sender As System.Object, e As System.EventArgs) Handles chkCheckBox2.CheckedChanged
@@ -82,7 +82,7 @@
     End Sub
 
     Private Sub chkCheckBox1_CheckStateChanged(sender As Object, e As System.EventArgs) Handles chkCheckBox1.CheckStateChanged
-        Me.ListBox1.Items.Add("Event - CheckStateChanged")
+        Me.lsbCheckBox1Events.Items.Add("Event - CheckStateChanged")
         Call Set_CheckBox1_Checked_Texts()
         Call Set_CheckBox1_CheckState_Texts()
     End Sub
